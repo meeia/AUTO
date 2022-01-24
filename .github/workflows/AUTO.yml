@@ -3,7 +3,7 @@ name: auto
 on:
   push:
     branches:
-      - master
+      - main
   schedule:
     - cron: "20,40 * * * *"
 
